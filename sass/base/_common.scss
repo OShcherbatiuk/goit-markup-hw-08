@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+  color: inherit;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+body {
+  font-family: $primari-font-family;
+  color: $primary-text-color;
+  font-style: normal;
+  max-width: 1600px;
+  margin: auto;
+}
+
+img {
+  display: block;
+}
+
+.section {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
