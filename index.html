@@ -29,44 +29,56 @@
             <span class="logo-first">Web</span
             ><span class="logo-second">Studio</span>
           </a>
-          <ul class="navigation-list list">
-            <li class="navigation-list-item">
-              <a class="navigation-list-item-link link current-page" href="./index.html"
-                >Студия <div class="current-page"></div></a
-              >
-              
-            </li>
-            <li class="navigation-list-item">
-              <a class="navigation-list-item-link link" href="./portfolio.html"
-                >Портфолио</a
-              >
-            </li>
-            <li class="navigation-list-item">
-              <a class="navigation-list-item-link link" href="">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+          
+          <button 
+          type="button" 
+          class="menu-button" 
+          aria-expanded="false" 
+          aria-controls="menu-container" 
+          data-menu-button>
 
-        <address class="address">
-          <ul class="address-list list">
-            <li class="address-list-item">
-              <a class="header-mail-link link" href="mailto:info@devstudio.com">
-                <svg width="16px" height="12px" class="address-logo">
-                  <use href="./images/sprite.svg#email"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
-            <li class="address-list-item">
-              <a class="header-tel-link link" href="tel:380961111111">
-                <svg width="10px" height="16px" class="address-logo">
-                  <use href="./images/sprite.svg#smartphone"></use>
-                </svg>
-                +38 096 111 11 11
-              </a>
-            </li>
-          </ul>
-        </address>
+            <svg width="40px" height="40px" aria-label="Мобильное меню">
+              <use class="icon-close" href="./images/sprite.svg#close"></use>
+              <use class="icon-menu" href="./images/sprite.svg#menu"></use>
+            </svg>
+          </button>
+          
+          <div class="menu-container" id="menu-container" data-menu>
+            <ul class="navigation-list list">
+              <li class="navigation-list-item">
+                <a class="navigation-list-item-link link current-page" href="./index.html">Студия <div class="current-page"></div>
+                  </a>
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-list-item-link link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-list-item-link link" href="">Контакты</a>
+              </li>
+            </ul>
+
+            <address class="address">
+              <ul class="address-list list">
+                <li class="address-list-item">
+                  <a class="header-mail-link link" href="mailto:info@devstudio.com">
+                    <svg width="16px" height="12px" class="address-logo">
+                      <use href="./images/sprite.svg#email"></use>
+                    </svg>
+                    info@devstudio.com
+                  </a>
+                </li>
+                <li class="address-list-item">
+                  <a class="header-tel-link link" href="tel:380961111111">
+                    <svg width="10px" height="16px" class="address-logo">
+                      <use href="./images/sprite.svg#smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+        </nav>
       </div>
     </header>
 
@@ -84,7 +96,7 @@
       </section>
 
       <!--FEATURES-->
-      <section class="features">
+    <!--<section class="features">
         <div class="container">
           <h2 class="visually-hidden">Особенности</h2>
           <ul class="features-list list">
@@ -121,7 +133,7 @@
       </section>
 
       <!-- ABOUT US -->
-      <section class="about">
+      <!--<section class="about">
         <div class="container">
           <h2 class="title">Чем мы занимаемся</h2>
           <ul class="about-list list">
@@ -166,7 +178,7 @@
       </section>
 
       <!-- TEAM -->
-      <section class="team">
+      <!--<section class="team">
         <div class="container">
           <h2 class="title">Наша команда</h2>
           <ul class="team-list list">
@@ -347,7 +359,7 @@
       </section>
 
       <!---CLIENT-->
-      <section class="client">
+      <!--<section class="client">
         <div class="container">
           <h2 class="title">Постоянные клиенты</h2>
           <ul class="client-list list">
@@ -399,7 +411,7 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer">
+    <!--<footer class="footer">
       <div class="container">
         <div class="footer-address">
           <a
@@ -480,7 +492,7 @@
     </footer>
 
     <!-- MODAL -->
-    <div class="backdrop is-hidden" data-modal>
+    <!--<div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close> <svg class="cls-btn" width="18px" height="18px">
           <use href="./images/sprite.svg#close-btn"></use>
@@ -523,8 +535,9 @@
             <button type="submit" class="contact-form__submit" value="submit">Отправить</button>
           </form>
       </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
 

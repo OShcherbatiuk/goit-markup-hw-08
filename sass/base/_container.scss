@@ -1,4 +1,33 @@
 .container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.hero {
+  text-align: center;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero-img.jpg);
+}
+/*.container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
@@ -59,4 +88,4 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
-}
+}*/
