@@ -1,4 +1,42 @@
 .about {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .about {
+    display: block;
+    &-list {
+      display: flex;
+      justify-content: space-between;
+
+      &-item:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+
+    &-thumb {
+      position: relative;
+    }
+
+    &-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 370px;
+      height: 70px;
+      bottom: 0;
+      background: rgba(47, 48, 58, 0.8);
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: $secondary-title-color;
+    }
+  }
+}
+/*.about {
   &-list {
     display: flex;
     justify-content: space-between;
@@ -28,4 +66,4 @@
     text-transform: uppercase;
     color: $secondary-title-color;
   }
-}
+}*/

@@ -72,6 +72,10 @@ img {
     height: 400px;
     padding: 118px 0;
   }
+  .team .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -90,6 +94,13 @@ img {
   .hero .container {
     height: 600px;
     padding: 200px 0;
+  }
+  .about .container {
+    padding-bottom: 94px;
+  }
+  .team .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
