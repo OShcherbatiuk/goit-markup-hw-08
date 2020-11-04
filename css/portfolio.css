@@ -78,12 +78,8 @@ img {
   .container {
     width: 768px;
   }
-  .container .hero {
+  .hero .container {
     padding: 118px 0;
-  }
-  .container .features {
-    display: flex;
-    justify-content: center;
   }
 }
 
