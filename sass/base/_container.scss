@@ -10,6 +10,8 @@
 
     .hero & {
       text-align: center;
+      height: 400px;
+      padding: 118px 0;
     }
   }
 }
@@ -17,12 +19,25 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    .hero {
+      padding: 118px 0;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+    }
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+
+    .hero & {
+      height: 600px;
+      padding: 200px 0;
+    }
   }
 }
 

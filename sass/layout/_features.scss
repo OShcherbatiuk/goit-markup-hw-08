@@ -14,7 +14,39 @@
   background-image: url(../images/features/astronaut.svg);
 }
 
-.features {
+@media screen and (min-width: 480px) {
+  .features {
+    &-description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.714;
+      letter-spacing: 0.03em;
+      width: 270px;
+      height: 101px;
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.143;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: $title-text-color;
+
+      &::before {
+        display: block;
+        content: "";
+        width: 270px;
+        height: 120px;
+        background-color: $secondary-bg-color;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+}
+/*.features {
   &-title {
     font-weight: 700;
     font-size: 14px;
@@ -52,4 +84,4 @@
     width: 270px;
     height: 101px;
   }
-}
+}*/

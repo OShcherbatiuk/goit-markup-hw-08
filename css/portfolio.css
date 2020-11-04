@@ -69,6 +69,8 @@ img {
   }
   .hero .container {
     text-align: center;
+    height: 400px;
+    padding: 118px 0;
   }
 }
 
@@ -76,11 +78,22 @@ img {
   .container {
     width: 768px;
   }
+  .container .hero {
+    padding: 118px 0;
+  }
+  .container .features {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+  }
+  .hero .container {
+    height: 600px;
+    padding: 200px 0;
   }
 }
 

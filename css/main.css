@@ -69,6 +69,8 @@ img {
   }
   .hero .container {
     text-align: center;
+    height: 400px;
+    padding: 118px 0;
   }
 }
 
@@ -76,11 +78,22 @@ img {
   .container {
     width: 768px;
   }
+  .container .hero {
+    padding: 118px 0;
+  }
+  .container .features {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+  }
+  .hero .container {
+    height: 600px;
+    padding: 200px 0;
   }
 }
 
@@ -632,44 +645,75 @@ img {
   background-image: url(../images/features/astronaut.svg);
 }
 
-.features-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
+@media screen and (min-width: 480px) {
+  .features-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    width: 270px;
+    height: 101px;
+  }
+  .features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+  .features-title::before {
+    display: block;
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
-.features-title::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+/*.features {
+  &-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-text-color;
 
-.features-list {
-  display: flex;
-}
+    &::before {
+      display: block;
+      content: "";
+      width: 270px;
+      height: 120px;
+      background-color: $secondary-bg-color;
+      margin-right: 30px;
+      margin-bottom: 30px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
 
-.features-list-item:not(:last-child) {
-  margin-right: 30px;
-}
+  &-list {
+    display: flex;
 
-.features-description {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  width: 270px;
-  height: 101px;
-}
+    &-item:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
 
+  &-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    width: 270px;
+    height: 101px;
+  }
+}*/
 .about-list {
   display: flex;
   justify-content: space-between;
