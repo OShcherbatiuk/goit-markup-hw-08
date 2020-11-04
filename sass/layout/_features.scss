@@ -79,6 +79,9 @@
       display: flex;
       justify-content: space-between;
       padding: 94px 0;
+      &-item:not(:last-child) {
+        margin-right: 30px;
+      }
     }
     &-list-item {
       max-width: 270px;

@@ -701,6 +701,9 @@ img {
     justify-content: space-between;
     padding: 94px 0;
   }
+  .features-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
   .features-list-item {
     max-width: 270px;
   }
