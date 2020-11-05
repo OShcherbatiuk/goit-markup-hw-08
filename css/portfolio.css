@@ -237,6 +237,11 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
+.header .navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
 .menu-button {
   display: inline-flex;
   margin: 0;
