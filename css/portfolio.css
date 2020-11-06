@@ -330,6 +330,12 @@ img {
   display: block;
 }
 
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+
 /*.header {
   padding-top: 32px 0;
   border-bottom: 1px solid #ececec;
