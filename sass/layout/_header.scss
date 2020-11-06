@@ -1,76 +1,63 @@
 .header {
   position: relative;
   border-bottom: 1px solid #ececec;
+}
 
+.header-mail-link:hover .address-logo,
+.header-tel-link:hover .address-logo,
+.header-mail-link:focus .address-logo,
+.header-tel-link:focus .address-logo {
+  fill: $accent-color;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .navigation {
     display: flex;
     justify-content: space-between;
   }
-}
+  .menu-button {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-.menu-button {
-  display: inline-flex;
-  margin: 0;
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    fill: $accent-color;
+    &:hover,
+    &:focus {
+      fill: $accent-color;
+    }
   }
-
   .icon-close {
     display: none;
+
+    .menu-button.is-open & {
+      display: block;
+    }
+
+    .menu-button.is-open & {
+      display: none;
+    }
+  }
+  .menu-container {
+    display: none;
+    background-color: $secondary-title-color;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+      0px 1px 3px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 60px;
+    text-align: center;
+    font-size: 20px;
+
+    &.is-open {
+      display: block;
+    }
   }
 }
-
-.menu-button.is-open .icon-close {
-  display: block;
-}
-
-.menu-button.is-open .icon-menu {
-  display: none;
-}
-
-.menu-container {
-  display: none;
-  background-color: $secondary-title-color;
-
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
-    0px 1px 3px rgba(0, 0, 0, 0.16);
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  padding: 60px;
-  text-align: center;
-  font-size: 20px;
-
-  &.is-open {
-    display: block;
-  }
-}
-/*.header-mail-link {
-  margin-right: 50px;
-  display: flex;
-  align-items: center;
-  padding: 31px 0;
-
-  color: $primary-text-color;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:focus,
-  &:hover {
-    color: $accent-color;
-  }
-}*/
 
 /*.header {
   padding-top: 32px 0;
