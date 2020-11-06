@@ -14,6 +14,14 @@
   background-image: url(../images/features/astronaut.svg);
 }
 
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  .features {
+    &-list {
+      padding: 60px 0;
+    }
+  }
+}
+
 @media screen and (min-width: 320px) {
   .features {
     &-description {
