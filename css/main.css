@@ -117,7 +117,8 @@ img {
   }
   .features .container,
   .team .container,
-  .client .container {
+  .client .container,
+  .footer .container {
     padding-top: 94px;
     padding-bottom: 94px;
   }
