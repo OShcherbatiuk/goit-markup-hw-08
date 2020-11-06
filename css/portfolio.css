@@ -328,9 +328,45 @@ img {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
   .menu-button {
     display: none;
+  }
+  .address-list-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .navigation {
+    display: flex;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+  .navigation-list {
+    display: flex;
+    margin-right: 84px;
+  }
+  .navigation-list-item:not(:last-child) {
+    margin-right: 50px;
+  }
+  .menu-container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .navigation-list {
+    display: flex;
+    margin-right: 305px;
+  }
+  .navigation-list-item:not(:last-child) {
+    margin-right: 50px;
   }
 }
 
