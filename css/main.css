@@ -664,9 +664,6 @@ img {
 }
 
 @media screen and (min-width: 320px) {
-  .features-list {
-    padding: 60px 0;
-  }
   .features-description {
     font-weight: 400;
     font-size: 14px;
@@ -721,7 +718,6 @@ img {
   .features-list {
     display: flex;
     justify-content: space-between;
-    padding: 94px 0;
   }
   .features-list-item:not(:last-child) {
     margin-right: 30px;
