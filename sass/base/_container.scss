@@ -28,12 +28,9 @@
       padding: 118px 0;
     }
 
-    .team & {
-      padding-top: 60px;
-      padding-bottom: 60px;
-    }
-
-    .client & {
+    .team &,
+    .client &,
+    .footer & {
       padding-top: 60px;
       padding-bottom: 60px;
     }
@@ -58,17 +55,14 @@
       padding: 200px 0;
     }
 
-    .about & {
-      padding-bottom: 94px;
-    }
-
-    .team & {
-      padding-top: 94px;
-      padding-bottom: 94px;
-    }
-
+    .features &,
+    .team &,
     .client & {
       padding-top: 94px;
+      padding-bottom: 94px;
+    }
+
+    .about & {
       padding-bottom: 94px;
     }
   }
