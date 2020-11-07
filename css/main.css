@@ -567,10 +567,7 @@ img {
     display: flex;
     align-items: center;
   }
-  .address-list-item {
-    margin-right: 30px;
-  }
-  .address-list:not(:last-child) {
+  .address-list-item:not(:last-child) {
     margin-right: 30px;
   }
   .address-logo {

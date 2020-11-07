@@ -225,15 +225,10 @@
     &-list {
       display: flex;
       align-items: center;
-      &-item {
+      &-item:not(:last-child) {
         margin-right: 30px;
       }
     }
-
-    &-list:not(:last-child) {
-      margin-right: 30px;
-    }
-
     &-logo {
       display: inline-block;
       margin-right: 10px;
