@@ -24,6 +24,10 @@ body {
   font-style: normal;
   max-width: 1600px;
   margin: auto;
+
+  &.modal-open {
+    overflow: hidden;
+  }
 }
 
 img {

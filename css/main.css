@@ -49,6 +49,10 @@ body {
   margin: auto;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 img {
   display: block;
 }
