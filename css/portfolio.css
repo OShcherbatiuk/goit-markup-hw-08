@@ -332,14 +332,12 @@ img {
   .menu-button {
     display: none;
   }
-  .address-list-item:not(:last-child) {
-    margin-bottom: 10px;
-  }
   .navigation {
     display: flex;
     align-items: center;
     padding-top: 26px;
     padding-bottom: 26px;
+    justify-content: space-between;
   }
   .navigation-list {
     display: flex;
@@ -348,9 +346,18 @@ img {
   .navigation-list-item:not(:last-child) {
     margin-right: 50px;
   }
+  .navigation-list-item-link.current-page::after {
+    margin-top: 34px;
+  }
   .menu-container {
     display: flex;
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .navigation .address-list-item:not(:last-child) {
+    margin-bottom: 10px;
   }
 }
 
@@ -363,10 +370,26 @@ img {
   }
   .navigation-list {
     display: flex;
-    margin-right: 305px;
+    margin-right: 306px;
   }
-  .navigation-list-item:not(:last-child) {
-    margin-right: 50px;
+  .address {
+    margin-left: auto;
+  }
+  .address-list {
+    display: flex;
+    align-items: center;
+  }
+  .address-list-item {
+    margin-right: 30px;
+  }
+  .address-list:not(:last-child) {
+    margin-right: 30px;
+  }
+  .address-logo {
+    display: inline-block;
+    margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #757575;
   }
 }
 
