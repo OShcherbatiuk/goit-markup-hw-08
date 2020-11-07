@@ -238,6 +238,7 @@ img {
 }
 
 .contact-form__title {
+  text-align: center;
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -301,7 +302,7 @@ img {
   content: "";
   width: 16px;
   height: 16px;
-  margin-right: 8px;
+  margin-right: 6px;
   border: 2px solid black;
   border-radius: 2px;
 }

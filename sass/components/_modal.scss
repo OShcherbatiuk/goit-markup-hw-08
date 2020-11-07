@@ -64,6 +64,7 @@
   margin: 0 auto;
 
   &__title {
+    text-align: center;
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
@@ -127,7 +128,7 @@
     content: "";
     width: 16px;
     height: 16px;
-    margin-right: 8px;
+    margin-right: 6px;
     border: 2px solid black;
     border-radius: 2px;
 
