@@ -68,13 +68,8 @@ img {
     padding: 118px 0;
   }
   .team .container,
-  .features .container,
   .client .container,
   .footer .container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .features .container {
     padding-top: 60px;
     padding-bottom: 60px;
   }
