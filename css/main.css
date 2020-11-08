@@ -73,7 +73,8 @@ img {
   }
   .team .container,
   .client .container,
-  .footer .container {
+  .footer .container,
+  .projects .container {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -91,7 +92,8 @@ img {
   }
   .team .container,
   .client .container,
-  .footer .container {
+  .footer .container,
+  .project .container {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -117,7 +119,8 @@ img {
   .features .container,
   .team .container,
   .client .container,
-  .footer .container {
+  .footer .container,
+  .projects .container {
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -1001,14 +1004,14 @@ img {
   .team-list {
     display: flex;
   }
+  .team-list-item {
+    width: 354px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .team-list {
     flex-wrap: wrap;
-  }
-  .team-list-item {
-    width: 354px;
   }
   .team-list-item:not(:nth-last-child(-n + 2)) {
     margin-bottom: 30px;
