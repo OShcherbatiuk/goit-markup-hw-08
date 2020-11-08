@@ -154,6 +154,7 @@ img {
 }
 
 .backdrop {
+  z-index: 999;
   overflow-y: scroll;
   position: fixed;
   width: 100%;
@@ -330,6 +331,7 @@ img {
 
 @media screen and (max-width: 479px) {
   .modal {
+    top: 100%;
     width: 100%;
   }
   .contact-form-accept-lable {
