@@ -55,12 +55,9 @@ body.modal-open {
 
 img {
   display: block;
+  width: 100%;
 }
 
-/*.section {
-  padding-top: 130px;
-  padding-bottom: 120px;
-}*/
 .container {
   outline: 1px solid black;
   padding: 0 15px;
