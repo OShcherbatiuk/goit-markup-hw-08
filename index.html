@@ -139,37 +139,30 @@
           <ul class="about-list list">
             <li class="about-list-item">
               <div class="about-thumb">
-                <img
-                  class="about-img"
-                  src="./images/about-us/about-us-img1.jpg"
-                  alt="Компьютер"
-                  width="370"
-                  height="294"
-                />
+              <picture>
+                <source srcset="./images/about-us/about-us-img1.jpg 1x, ./images/about-us/about-us-img1@2x.jpg 2x" media="(min-width: 1200px)">
+                <img class="about-img" src="./images/about-us/about-us-img1.jpg" alt="Компьютер" width="370" height="294" />
+              </picture>
                 <p class="about-text">Десктопные приложения</p>
               </div>
             </li>
             <li class="about-list-item">
               <div class="about-thumb">
-                <img
-                  class="about-img"
-                  src="./images/about-us/about-us-img2.jpg"
-                  alt="Телефон"
-                  width="370"
-                  height="294"
-                />
+              <picture>
+                <source srcset="./images/about-us/about-us-img2.jpg 1x, ./images/about-us/about-us-img2@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+                <img class="about-img" src="./images/about-us/about-us-img2.jpg" alt="Мобильный" width="370" height="294" />
+              </picture>
               <p class="about-text">Мобильные приложения</p>
               </div>
             </li>
             <li class="about-list-item">
               <div class="about-thumb">
-                <img
-                  class="about-img"
-                  src="./images/about-us/about-us-img3.jpg"
-                  alt="Планшет"
-                  width="370"
-                  height="294"
-                />
+              <picture>
+                <source srcset="./images/about-us/about-us-img3.jpg 1x, ./images/about-us/about-us-img3@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+                <img class="about-img" src="./images/about-us/about-us-img3.jpg" alt="Планшет" width="370" height="294" />
+              </picture>
               <p class="about-text">Дизайнерские решения</p>
               </div>
             </li>
@@ -183,11 +176,14 @@
           <h2 class="title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list-item">
-              <img
-                class="team-list-img"
-                src="./images/team/ihor-d.jpg"
-                alt="Фото Игоря"
-              />
+              <picture>
+                <source srcset="./images/team/desktop/igor-desktop.jpg 1x, ./images/team/desktop/igor-desktop@2x.jpg 2x" 
+                  media="(min-width: 1200px)">
+                <source srcset="./images/team/tablet/igor-tablet.jpg 1x, ./images/team/tablet/igor-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./images/team/mobile/igor-mobile.jpg 1x, ./images/team/mobile/igor-mobile@2x.jpg 2x"
+                  media="(min-width: 320px)">
+                <img class="team-list-img" src="./images/team/mobile/igor-mobile.jpg" alt="Фото Игоря" />
               <div class="team-list-content">
                 <h3 class="team-list-name">Игорь Демьяненко</h3>
                 <p class="team-list-position" lang="en">Product Designer</p>
@@ -224,11 +220,14 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-img"
-                src="./images/team/olha-r.jpg"
-                alt="Фото Ольги"
-              />
+              <picture>
+                <source srcset="./images/team/desktop/olga-desktop.jpg 1x, ./images/team/desktop/olga-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./images/team/tablet/olga-tablet.jpg 1x, ./images/team/tablet/olga-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./images/team/mobile/olga-mobile.jpg 1x, ./images/team/mobile/olga-mobile@2x.jpg 2x"
+                  media="(min-width: 320px)">
+                <img class="team-list-img" src="./images/team/mobile/olga-mobile.jpg" alt="Фото Ольги" />
               <div class="team-list-content">
                 <h3 class="team-list-name">Ольга Репина</h3>
                 <p class="team-list-position" lang="en">Frontend Developer</p>
@@ -265,11 +264,14 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-img"
-                src="./images/team/nikolay-t.jpg"
-                alt="Фото Николая"
-              />
+              <picture>
+                <source srcset="./images/team/desktop/nikolay-desktop.jpg 1x, ./images/team/desktop/nikolay-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./images/team/tablet/nikolay-tablet.jpg 1x, ./images/team/tablet/nikolay-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./images/team/mobile/nikolay-mobile.jpg 1x, ./images/team/mobile/nikolay-mobile@2x.jpg 2x"
+                  media="(min-width: 320px)">
+                <img class="team-list-img" src="./images/team/mobile/nikolay-mobile.jpg" alt="Фото Игоря" />
               <div class="team-list-content">
                 <h3 class="team-list-name">Николай Тарасов</h3>
                 <p class="team-list-position" lang="en">Marketing</p>
@@ -306,11 +308,14 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-img"
-                src="./images/team/michail-e.jpg"
-                alt="Фото Михаила"
-              />
+              <picture>
+                <source srcset="./images/team/desktop/mihail-desktop.jpg 1x, ./images/team/desktop/mihail-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./images/team/tablet/mihail-tablet.jpg 1x, ./images/team/tablet/mihail-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./images/team/mobile/mihail-mobile.jpg 1x, ./images/team/mobile/mihail-mobile@2x.jpg 2x"
+                  media="(min-width: 320px)">
+                <img class="team-list-img" src="./images/team/mobile/mihail-mobile.jpg" alt="Фото Игоря" />
               <div class="team-list-content">
                 <h3 class="team-list-name">Михаил Ермаков</h3>
                 <p class="team-list-position" lang="en">UI Designer</p>
