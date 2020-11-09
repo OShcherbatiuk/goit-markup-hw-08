@@ -323,7 +323,7 @@ img {
     margin-right: 50px;
   }
   .navigation-list-item-link.current-page::after {
-    margin-top: 32px;
+    margin-top: 34px;
   }
   .menu-container {
     display: flex;
