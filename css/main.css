@@ -410,7 +410,6 @@ img {
   position: absolute;
   display: block;
   left: 0;
-  top: 100%;
   content: "";
   background-color: #2196f3;
   width: 100%;
