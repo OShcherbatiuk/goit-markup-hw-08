@@ -482,6 +482,12 @@ img {
   color: #757575;
 }
 
+@media screen and (max-width: 479px) {
+  .overlay-text {
+    padding: 24px 24px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .project-list-item {
     width: 450px;
